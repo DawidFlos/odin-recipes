@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(247, 232, 208);
+}
+
+.title {
+    color: rgb(62, 189, 182);
+    font-family: Garamond, Georgia, 'Times New Roman';
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+li {
+    background-color: rgb(171, 253, 40);
+    width: fit-content;
+    font-size: 45px;
+    margin-top: 80px;   
+}
