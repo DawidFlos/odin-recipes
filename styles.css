@@ -2,19 +2,54 @@ body {
     background-color: rgb(247, 232, 208);
 }
 
-.title {
+#title {
     color: rgb(62, 189, 182);
     font-family: Garamond, Georgia, 'Times New Roman';
     text-align: center;
     font-size: 60px;
     font-weight: bold;
     font-style: italic;
-    
 }
-
-li {
-    background-color: rgb(171, 253, 40);
+.page-directions li {
+    margin-bottom: 40px;
+}
+.page-directions a {
+    background-color: rgb(0, 0, 0);
     width: fit-content;
     font-size: 45px;
-    margin-top: 80px;   
+    margin-top: 80px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.page-directions a:hover {
+    color: black;
+    background-color: aquamarine;
+}
+
+.home-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: rgb(18, 20, 20);
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.page-title {
+    color: rgb(3, 3, 3);
+    font-family: Arial, Helvetica, sans-serif, Georgia, 'Times New Roman', Times, serif;
 }
