@@ -5,34 +5,50 @@ body {
 /* Main page */
 
 #title {
-    color: rgb(62, 189, 182);
-    font-family: Garamond, Georgia, 'Times New Roman';
-    text-align: center;
-    font-size: 90px;
-    font-weight: bold;
-    font-style: italic;
-}
-.page-directions li {
+    background-color: rgb(252, 251, 251);
+    margin: 0 auto;
     margin-bottom: 80px;
-    margin-top: 150px;   
-}
-.page-directions a {
-    background-color: rgb(0, 0, 0);
-    width: fit-content;
-    font-size: 45px;
-    margin-top: 80px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 5px;
+    padding: 20px;
+    display: table;
     border-radius: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    cursor: pointer;
+    font-size: 40px;
+    color: rgb(68, 145, 145);
 }
 
-.page-directions a:hover {
-    color: black;
-    background-color: aquamarine;
+div a{
+    display: block;
+    margin-bottom: 10px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border: none;
+}
+
+div:hover a{
+    background-color: black;
+    color: aqua;
+}
+
+.goulash-link {
+    background-color: rgb(60, 189, 189);
+}
+
+.curry-link {
+    background-color: rgb(33, 118, 187);
+}
+
+.pork-link {
+    background-color: rgb(141, 76, 202);
 }
 
 /* Sites */
